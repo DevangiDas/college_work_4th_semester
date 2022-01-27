@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_input</title>
+</head>
+<body>
+
+    <!-- <form action="process.php"> -->
+        <!-- TEXT -->
+    <div>
+        <label for="name">NAME</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Name">
+    </div>
+    <div>
+        <label for="roll">ROLL</label><br>
+        <input type="text" id="roll" name="roll" placeholder="Enter roll">
+    </div>
+    <!-- number -->
+    <div>
+        <label for="age">Age</label><br>
+        <input type="number" name="age" id="age">
+    </div>
+    <!-- select -->
+    <div>
+        <label for="gender">Gender</label><br>
+        <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+    </select>
+    </div>
+    <!-- DAte -->
+    <div>
+        <label for="birthdate">Birthdate</label><br>
+        <input type="date" name="birthdate" id="birthdate">
+    </div>
+    <!-- Email -->
+    <div>
+        <label for="emial">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter email">
+    </div>
+    <!-- radio -->
+    <div>
+        <label for="registration">REGISTRATION FOR</label>
+        <input type="radio" name="registration"value="cse" id="registration">CSE
+        <input type="radio" name="registration"value="it" id="registration">IT
+        <input type="radio" name="registration"value="others" id="registration">OTHERS
+    </div>  
+    <!-- TEXTAREA -->
+    <div>
+        <label for="Feedback_form_message">Feedback_form_message</label><br>
+        <textarea name="Feedback_form_message" id="Feedback_form_message" cols="30" rows="10"></textarea>
+    </div>
+    <!-- input submit -->
+    <input type="submit" value="Submit">
+
+     <!--using button  -->
+     <!-- <button type="submit">Submit</button> -->
+    
+     <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
