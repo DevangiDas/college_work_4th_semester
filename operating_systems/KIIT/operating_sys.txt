@@ -1,0 +1,62 @@
+echo enter values of 1 to  6
+read a
+if test $a -lt 6
+-le = less than equal to
+-lt = less than
+-gt = ge
+-ne = not equal to
+-eq = equal to
+/* logical operator */
+! not
+-a and
+-o or
+
+if test $a -lt 6
+then
+echo condition
+fi   //close if
+
+
+if [ $a -lt 6 ]
+
+
+/*next questioin*/
+
+echo enter a no in 1 to 6
+read a
+if test $a -lt 6
+then 
+echo number is $a
+else 
+echo my name is $a
+
+
+/* alternate way*/
+
+if [ $a -lt 6]
+then 
+cond
+else 
+if [statement]
+then
+condition
+else
+condition
+fi
+fi
+
+
+
+/*elif*/
+no need to close for fi
+elif[statment]
+
+
+case $var in
+1) statement;;
+2) statement;;
+-
+-
+-
+*) statement ;;
+esac
