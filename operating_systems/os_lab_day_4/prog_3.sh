@@ -1,6 +1,10 @@
 #!/bin/sh
 
-#A shell program to enter the mark secured by a student in a particular subject and Based on the grading system of our university finding and displaying the grade (i.e. from “O” to “F”) secured by the student in that subject.
+<<LongComment
+ shell program to enter the mark secured by a student in a particular subject
+and Based on the grading system of our university finding and displaying the 
+grade (i.e. from “O” to “F”) secured by the student in that subject.
+LongComment
 
 echo Enter the mark secured by a student:
 read mark
