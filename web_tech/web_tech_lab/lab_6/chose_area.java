@@ -45,7 +45,7 @@ public class chose_area {
                     obj.calculateArea(s1,s2,s3);
                 break;
                 case 4:
-                    System.out.println("Exiting...");
+                    System.out.println("Exited.");
                     flag=false;
                 break;
                 default:
