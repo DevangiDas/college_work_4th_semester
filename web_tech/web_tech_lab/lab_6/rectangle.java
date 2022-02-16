@@ -1,5 +1,6 @@
-/* Write a program in Java to define a class Rectangle having data member: lengthand breadth; to calculate the area and perimeter of the rectangle. Use member
-functions to read, calculate and display.*/
+/* Write a program in Java to define a class Rectangle having data member: 
+lengthand breadth; to calculate the area and perimeter of the rectangle. 
+Use member functions to read, calculate and display.*/
 
 import java.io.*;
 
