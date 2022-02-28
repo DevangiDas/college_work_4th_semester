@@ -1,0 +1,4 @@
+root         9     8  0 16:05 ?        00:00:00 /init
+devangi     10     9  0 16:05 pts/0    00:00:00 -bash
+devangi    959    10  0 16:46 pts/0    00:00:00 sh p1.sh 9
+devangi    965   959  0 16:46 pts/0    00:00:00 sh p1.sh 9

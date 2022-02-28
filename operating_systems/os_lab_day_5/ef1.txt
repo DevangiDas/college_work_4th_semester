@@ -1,0 +1,6 @@
+root         1     0  0 13:03 ?        00:00:00 /init
+root         8     1  0 13:03 ?        00:00:00 /init
+root         9     8  0 13:03 ?        00:00:01 /init
+devangi     10     9  0 13:03 pts/0    00:00:00 -bash
+devangi  27241    10  0 13:58 pts/0    00:00:00 sh prog_9.sh
+devangi  27245 27241  0 13:58 pts/0    00:00:00 ps -ef --no-headers
